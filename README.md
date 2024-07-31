@@ -6,4 +6,6 @@
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Dont' forget to create a create an env file
+## Change Env.example to ENV and fill all the properties
+
+You can get all the necessary data from your account on your supabase project
