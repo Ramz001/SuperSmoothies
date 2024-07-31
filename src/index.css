@@ -138,18 +138,6 @@ form button:hover {
   border-color: rgba(232, 45, 56, 0.75);
 }
 
-@media (max-width: 660px) {
-  .smoothie-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 440px) {
-  .smoothie-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .order-by button {
   margin-right: 10px;
   border: 0;
@@ -165,4 +153,28 @@ form button:hover {
 .inactive-order {
   background-color: white;
   color: #aaa;
+}
+
+@media (max-width: 660px) {
+  .smoothie-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .page {
+    padding: 1rem 3rem;
+  }
+  nav {
+    padding: 1rem 3rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .smoothie-grid {
+    grid-template-columns: 1fr;
+  }
+  .page {
+    padding: 1rem 2rem;
+  }
+  nav {
+    padding: 1rem 2rem;
+  }
 }
